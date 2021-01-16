@@ -1,0 +1,4 @@
+--
+-- Dump all names from DB
+--
+select MIB.NAME,OBJECT.KEY,OBJECT.NAME from OBJECT INNER JOIN MIB ON MIB.ID=OBJECT.MIB ;
