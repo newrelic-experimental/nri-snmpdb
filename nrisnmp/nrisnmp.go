@@ -4,6 +4,6 @@ import (
   "fmt"
 )
 
-func init() {
+func Init() {
   fmt.Println("snmpdb")
 }
