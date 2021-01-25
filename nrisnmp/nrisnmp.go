@@ -1,4 +1,4 @@
-package snmpdb
+package nrisnmp
 
 import (
   "fmt"
